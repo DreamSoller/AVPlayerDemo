@@ -57,7 +57,7 @@
                         <constraint firstAttribute="height" constant="30" id="D0L-Eb-hVG"/>
                         <constraint firstAttribute="width" constant="30" id="YgF-dn-gjb"/>
                     </constraints>
-                    <state key="normal" backgroundImage="btn_stop.png"/>
+                    <state key="normal" backgroundImage="noScreen.png"/>
                 </button>
             </subviews>
             <constraints>
@@ -89,6 +89,6 @@
         </view>
     </objects>
     <resources>
-        <image name="btn_stop.png" width="50" height="50"/>
+        <image name="noScreen.png" width="25" height="25"/>
     </resources>
 </document>

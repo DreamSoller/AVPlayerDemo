@@ -71,7 +71,7 @@ typedef NS_ENUM(NSInteger, PlayerStatu){
     __weak typeof(self) weakSelf = self;
     [self.player addPeriodicTimeObserverForInterval:interval queue:dispatch_get_main_queue() usingBlock:^(CMTime time) {
         //
-        if (/*!weakSelf.viewDelegate.isSliding*/1){
+        if (!weakSelf.viewDelegate.isSliding){
             CGFloat currentTime = CMTimeGetSeconds(time);
             [weakSelf.viewDelegate updatePlayProgress:currentTime];
         }

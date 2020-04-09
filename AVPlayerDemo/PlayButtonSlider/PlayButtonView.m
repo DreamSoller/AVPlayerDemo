@@ -21,6 +21,7 @@
     [super awakeFromNib];
     [self.progressSlider setThumbImage:[UIImage imageNamed:@"./Images/progress_dot.png"] forState:UIControlStateNormal];
     [self.playButton setImage:[UIImage imageNamed:@"./Images/btn_stop.png"] forState:UIControlStateNormal];
+    [self.fullScreenButton setImage:[UIImage imageNamed:@"./Images/noScreen.png"] forState:UIControlStateNormal];
     self.isSliding = NO;
     
     [self.progressSlider addTarget:self action:@selector(handleSliderTouchDown:) forControlEvents:UIControlEventTouchDown];
